@@ -44,7 +44,7 @@ public class Animal {
     private Usuario usuario;
 
     @ManyToOne
-    @JoinColumn(name="USUARIO_ID", nullable=false)
+    @JoinColumn(name="CUIDADOR_ID", nullable=false)
     private cuidador cuidador;
 
 
