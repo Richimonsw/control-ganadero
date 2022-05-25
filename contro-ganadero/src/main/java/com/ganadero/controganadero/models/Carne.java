@@ -26,5 +26,7 @@ public class Carne extends Produccion  {
 
     @Column(name = "PESO")
     private String peso;
+
+    private String casa;
     
 }
