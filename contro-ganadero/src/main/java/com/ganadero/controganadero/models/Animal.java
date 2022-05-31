@@ -24,7 +24,7 @@ public class Animal {
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
 
-    @Column(name = "NOMBRE")
+    @Column(name = "Nombre", nullable = false, length = 100)
     private String nombre;
     @Column(name = "FECHA_NACIMIENTO")
     private String fechaNac;

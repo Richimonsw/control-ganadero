@@ -1,10 +1,18 @@
 package com.ganadero.controganadero.dto;
 
-public class AnimalDTO {
+
+
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+
+@Getter
+@Setter
+@NoArgsConstructor
+@AllArgsConstructor
+public class AnimalDTO extends NuevoAnimalDTO {
+    
     private long id;
-    private String nombre;
-    private String fechaNac;
-    private String raza;
-    private String propocito;
     
 }
