@@ -1,4 +1,6 @@
 package com.ganadero.controganadero.dto;
+
+import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
@@ -6,6 +8,8 @@ import lombok.Setter;
 @Getter
 @Setter
 @NoArgsConstructor
-public class NuevaLecheDTO {
-    private String litros;
+@AllArgsConstructor
+public class CarneDTO extends NuevaCarneDTO{
+    private Long id;
+    private String peso;
 }

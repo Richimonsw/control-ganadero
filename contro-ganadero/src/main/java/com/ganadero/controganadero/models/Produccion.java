@@ -16,6 +16,13 @@ public abstract class Produccion {
 
     @Column(name = "FECHA_PRODUCCION")
     private String fecha_produccion;
+
+    public void setId(Long id2) {
+    }
+
+    public Long getId() {
+        return null;
+    }
     
 
 }

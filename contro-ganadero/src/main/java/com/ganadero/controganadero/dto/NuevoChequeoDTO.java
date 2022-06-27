@@ -6,6 +6,8 @@ import lombok.Setter;
 @Getter
 @Setter
 @NoArgsConstructor
-public class NuevaLecheDTO {
-    private String litros;
+public class NuevoChequeoDTO {
+    private String nombreVet;
+    private String fechaCheq;
+    private String observacion;
 }
