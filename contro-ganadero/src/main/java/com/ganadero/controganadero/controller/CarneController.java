@@ -22,7 +22,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("/carne")
+@RequestMapping("/api/carne")
 public class CarneController {
     private final CarneService service;
 

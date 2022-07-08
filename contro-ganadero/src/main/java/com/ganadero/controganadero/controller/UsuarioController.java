@@ -23,7 +23,7 @@ import com.ganadero.controganadero.dto.NuevoUsuarioDTO;
 import com.ganadero.controganadero.dto.UsuarioDTO;
 
 @RestController
-@RequestMapping("/Usuario")
+@RequestMapping("/api/Usuario")
 public class UsuarioController {
     private final UsuarioService service;
 

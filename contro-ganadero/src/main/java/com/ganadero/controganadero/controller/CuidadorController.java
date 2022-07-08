@@ -23,7 +23,7 @@ import com.ganadero.controganadero.dto.NuevoCuidadorDTO;
 
 
 @RestController
-@RequestMapping("/Cuidador")
+@RequestMapping("/api/Cuidador")
 public class CuidadorController {
     private final CuidadorService service;
 

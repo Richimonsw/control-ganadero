@@ -22,7 +22,7 @@ import com.ganadero.controganadero.dto.ChequeoDTO;
 import com.ganadero.controganadero.dto.NuevoChequeoDTO;
 
 @RestController
-@RequestMapping("/chequeo")
+@RequestMapping("/api/chequeo")
 public class ChequeoController {
     private final ChequeoService service;
 

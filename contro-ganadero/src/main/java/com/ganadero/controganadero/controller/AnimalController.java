@@ -8,6 +8,8 @@ import com.ganadero.controganadero.Service.AnimalService;
 import com.ganadero.controganadero.dto.AnimalDTO;
 import com.ganadero.controganadero.dto.NuevoAnimalDTO;
 
+import io.swagger.v3.oas.annotations.responses.ApiResponse;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -21,7 +23,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("/animal")
+@RequestMapping("/api/animal")
 public class AnimalController {
     private final AnimalService service;
 
